@@ -10,28 +10,30 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Selam Ben {bn}**
 
-`Sesli sohbetlerde güvenli bir şekilde müzik dinlemenize olanak sağlarım.`
+`Sesli sohbetlerde müzik dinlemenize olanak sağlarım.`
 
           **📜 Kullanım Kılavuzu 📜**
 
-💠 /play - __Şarkıyı oynatır.__
-💠 /pause - __Şarkıyı durdurur.__
-💠 /resume - __Şarkıyı devam ettirir.__
-💠 /skip - __Diğer şarkıya geçer.__
-💠 /stop - __Botu kapatır.__
-💠 /song - __Şarkı aratır.__
+💠 /oynat - __Şarkıyı oynatır.__
+💠 /dur - __Şarkıyı durdurur.__
+💠 /basla - __Şarkıyı devam ettirir.__
+💠 /gec - __Diğer şarkıya geçer.__
+💠 /kapat - __Botu kapatır.__
+💠 /sarkibul - __Şarkı aratır.__
 
-**🤖 Dev By @Zep_Unb**
+__Grubunuza özel müzik botu yaptırmak için @MoolRehber__
+
+**🤖 Developer By @Zep_Unb**
 
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Özel Müzik Botu Yaptırmak İçin", url="https://t.me/MoolRehber/7"
+                        "Sohbet Grubu 💬", url="https://t.me/ms_sohbet"
                     ),
                     InlineKeyboardButton(
-                        "Destek Grubu 🛡", url="https://t.me/DepressionalistChat"
+                        "Müzik Kanalı 🎶", url="https://t.me/akarsumuzik"
                     )
                 ]
             ]
