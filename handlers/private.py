@@ -10,7 +10,7 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Selam Ben {bn}**
 
-`Sesli sohbetlerde müzik dinlemenize olanak sağlarım.`
+`Sesli sohbetlerde güvenli bir şekilde müzik dinlemenize olanak sağlarım.`
 
           **📜 Kullanım Kılavuzu 📜**
 
@@ -21,19 +21,17 @@ async def start(_, message: Message):
 💠 /stop - __Botu kapatır.__
 💠 /song - __Şarkı aratır.__
 
-__Grubunuza özel müzik botu yaptırmak için https://t.me/MoolRehber/7__
-
-**🤖 Developer By @Zep_Unb**
+**🤖 Dev By @Zep_Unb**
 
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Sohbet Grubu 💬", url="https://t.me/ms_sohbet"
+                        "Özel Müzik Botu Yaptırmak İçin", url="https://t.me/MoolRehber/7"
                     ),
                     InlineKeyboardButton(
-                        "Müzik Kanalı 🎶", url="https://t.me/akarsumuzik"
+                        "Destek Grubu 🛡", url="https://t.me/DepressionalistChat"
                     )
                 ]
             ]
