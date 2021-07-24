@@ -21,6 +21,8 @@ async def start(_, message: Message):
 💠 /kapat - __Botu kapatır.__
 💠 /sarkibul - __Şarkı aratır.__
 
+Grubunuza özel müzik botu yaptırmak için @MoolRehber.
+
 **🤖 Developer By @Zep_Unb**
 
         """,
