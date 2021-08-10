@@ -30,10 +30,10 @@ __Grubunuza özel müzik botu yaptırmak için @MoolRehber__
             [
                 [
                     InlineKeyboardButton(
-                        "Sohbet Grubu 💬", url="https://t.me/ms_sohbet"
+                        "Özel Bot Yaptırmak İçin", url="https://t.me/Zep_Unb"
                     ),
                     InlineKeyboardButton(
-                        "Müzik Kanalı 🎶", url="https://t.me/akarsumuzik"
+                        "Destek Kanalı 🔰", url="https://t.me/MoolRehber"
                     )
                 ]
             ]
