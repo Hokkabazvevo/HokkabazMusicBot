@@ -53,7 +53,7 @@ async def stop(_, message: Message):
             pass
 
         callsmusic.pytgcalls.leave_group_call(message.chat.id)
-        await message.reply_text(f"`Bot kapatıldı! Görüşürüüzzz😉❤️!`")
+        await message.reply_text(f"`Bot kapatıldı! Minik ücret karşılığında grubuna özel müzik botu yaptırmak istiyorsan @Zep_Unb ile iletişime geçebilirsin. Görüşürüüzzz😉❤️!`")
 
 
 @Client.on_message(command("skip") & other_filters)
